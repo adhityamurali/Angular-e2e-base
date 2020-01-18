@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
+
+
+
+//var(--background-default)
+
+@if var(--theme) == 'red' {
+  
+} @else {
+  
+}
+
+:root {
+  /* Colors */
+  --foreground-default: #08090a;
+  --foreground-secondary: #41474d;
+
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+body {
+  background: var(--background-default);
+}
+
+h1 {
+  font-size: var(--h1-size);
+  font-weight: var(--h1-weight);
+  letter-spacing: var(--h1-spacing);
+}
+
+h2 {
+  font-size: var(--h2-size);
+  font-weight: var(--h2-weight);
+  letter-spacing: var(--h2-spacing);
+}
+
+h3 {
+  font-size: var(--h3-size);
+  font-weight: var(--h3-weight);
+  letter-spacing: var(--h3-spacing);
+}
+
+h4 {
+  font-size: var(--h4-size);
+  font-weight: var(--h4-weight);
+  letter-spacing: var(--h4-spacing);
+}
+
+h5 {
+  font-size: var(--h5-size);
+  font-weight: var(--h5-weight);
+  letter-spacing: var(--h5-spacing);
+}
+
+h6 {
+  font-size: var(--h6-size);
+  font-weight: var(--h6-weight);
+  letter-spacing: var(--h6-spacing);
+}
+
+.s1 {
+  font-size: var(--s1-size);
+  font-weight: var(--s1-weight);
+  letter-spacing: var(--s1-spacing);
+}
+
+.s2 {
+  font-size: var(--s2-size);
+  font-weight: var(--s2-weight);
+  letter-spacing: var(--s2-spacing);
+}
+
+.b1 {
+  font-size: var(--b1-size);
+  font-weight: var(--b1-weight);
+  letter-spacing: var(--b1-spacing);
+}
+
+.b2 {
+  font-size: var(--b2-size);
+  font-weight: var(--b2-weight);
+  letter-spacing: var(--b2-spacing);
+}
+
+.button {
+  font-size: var(--button-size);
+  font-weight: var(--button-weight);
+  letter-spacing: var(--button-spacing);
+}
+
+.caption {
+  font-size: var(--caption-size);
+  font-weight: var(--caption-weight);
+  letter-spacing: var(--caption-spacing);
+}
+
+.overline {
+  font-size: var(--overline-size);
+  font-weight: var(--overline-weight);
+  letter-spacing: var(--overline-spacing);
+}
+
+.secondary-font {
+  font-family: "Inconsolata", monospace;
+}
